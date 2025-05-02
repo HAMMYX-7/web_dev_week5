@@ -1,1 +1,95 @@
-
+/* General Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Card Sections */
+  .card {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+  }
+  
+  /* Buttons */
+  button {
+    margin: 10px 5px;
+    padding: 12px 20px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    transform: scale(1.05);
+  }
+  
+  /* Box Element */
+  #box {
+    width: 100%;
+    height: 100px;
+    background-color: #ffb74d;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+  
+  /* List Styling */
+  #item-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #item-list li {
+    background-color: #a5d6a7;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
